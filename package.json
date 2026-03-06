@@ -1,0 +1,19 @@
+{
+  "name": "devlogger-cli",
+  "version": "1.0.0",
+  "description": "A command-line tool that helps developers log and track their daily development activities directly from the terminal.",
+  "main": "index.js",
+  "bin": {
+    "devlogger": "./bin/devlogger.js"
+  },
+  "scripts": {
+    "start": "node ./bin/devlogger.js"
+  },
+  "keywords": ["cli", "development", "logging", "productivity"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "chalk": "^4.1.2"
+  }
+}
